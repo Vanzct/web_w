@@ -1,0 +1,240 @@
+#header {
+  width:100%;
+  height:38px;
+  background:#EEEEEE;
+  text-align:center;
+  padding-top:12px;
+}
+
+#navi {
+  height:55px;
+}
+
+#navi div {
+  margin-top:16px;
+  color: #ffffff;
+  font-family: "Arial Negreta","Arial";
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#content {
+  margin-left:auto;
+  margin-right:auto;
+  width:370px;
+  /*height:918px;*/
+  background:#FFFFFF;
+  border:solid 1px #66CCFF;
+}
+
+#apphead {
+  height:138px;
+}
+
+#icon {
+  width:112px;
+  height:111px;
+  padding-top:27px;
+  padding-left:16px;
+  float:left;
+}
+
+#mid {
+  width:179px;
+  height:96px;
+  padding-top:42px;
+  float:left;
+  background:#FFFFFF;
+}
+#appname {
+  height:44px;
+  font-family: "Arial Normal","Arial";
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  color: #000000;
+  font-size: 16px;
+}
+#score {
+  height:14px;
+}
+
+#opr {
+  width:30px;
+  height:96px;
+  padding-top:42px;
+  float:left;
+  cursor:pointer;
+}
+#opr div {
+  height:40px;
+}
+#opr span {
+  color: #33ffff;
+  font-family: "Arial Normal","Arial";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+
+#appnavi {
+  height:30px;
+  padding-left:6px;
+}
+#panel {
+  padding:1px 1px 1px 1px;
+  width:355px;
+  height:28px;
+  background:url("images/detail/panel.png");
+}
+#panel div {
+  float:left;
+  font-family: "Arial Normal","Arial";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align:center;
+}
+#detail{
+  height:22px;
+  padding-top:6px;
+  width:118px;
+  cursor:pointer;
+}
+#comment{
+  margin-top:-1px;
+  height:22px;
+  padding-top:6px;
+  width:116px;
+  border:solid 1px #66CCFF;  
+  cursor:pointer;
+}
+#relevant{
+  height:22px;
+  padding-top:6px;
+  width:118px;
+  cursor:pointer;
+}
+.unselectedpanel {
+  color:#33ccff;
+  background:#FFFFFF;
+}
+.selectedpanel {
+  color:#FFFFFF;
+  background:#66CCFF;
+}
+
+#appcontent {
+  /*height:717px;*/
+  height:687px;
+}
+
+#downloadbtn {
+  height:33px;
+  position:relative;
+  background:URL("images/detail/downloadbtn.png");
+}
+#textly {
+  width:370px;
+  height:25px;
+  padding-top:8px;
+  position:absolute;
+  
+  color: #33ccff;
+  font-family: "Arial Normal","Arial";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+#clkly {
+  width:370px;
+  height:33px;
+  position:absolute;
+  cursor:pointer;
+}
+
+/* 信息面板 */
+#appcontent .hiddenblock {
+  display:none;
+}
+#appcontent .showblock {
+  display:block;
+}
+
+/* 信息模块 */
+/* Title - Comment*/
+.info {
+  padding:22px 16px 6px 16px;
+}
+.info .title {
+  width:140px;
+  height:16px;
+  color: #33ccff;
+  font-family: "Arial Normal","Arial";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+.info .substance {
+  padding-top:16px;
+  color: #333333;
+  font-family: "Arial Normal","Arial";
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
+
+/* 图片滑动 */
+.pictureslider {
+  overflow-x:auto;
+  overflow-y:hidden;
+  padding-top:23px;
+  width:370px;
+  height:180px;
+}
+.imgblocklist {
+  width:830px;
+  height:160px;
+}
+.imgblock {
+  float:left;
+  padding-left:5px;
+  width:128px;
+  height:160px;
+}
+.imgblock img {
+  width:128px;
+  height:160px;
+}
+
+/* 公司信息 */
+.bottom {
+  padding: 10px 15px 0px 15px;
+}
+.bottom a, a:link, a:hover, a:visited {
+  text-decoration:none;
+  color:#FFFFFF;
+}
+.icp {
+  text-decoration:none;
+  color: #FFFFFF;
+}
+.bottom div {
+  float:left;
+}
+
+a, a:link, a:hover, a:visited {
+  text-decoration:none;
+  color:#FFFFFF;
+}

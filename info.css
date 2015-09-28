@@ -1,0 +1,17 @@
+#header {
+  width:400px;
+  height:29px;
+  padding-top:10px;
+  font-family: 'Arial Negreta', 'Arial';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: normal;
+}
+#content {
+  width:370px;
+  padding:16px 15px 0px 15px;
+  color:#FFFFFF;
+}

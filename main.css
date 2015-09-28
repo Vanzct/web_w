@@ -1,0 +1,172 @@
+#header {
+  width:400px;
+  height:29px;
+  padding-top:10px;
+  font-family: 'Arial Negreta', 'Arial';
+  font-weight: 700;
+  font-style: normal;
+  font-size: 24px;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: normal;
+}
+
+#searcharea {
+  width:370px;
+  height:31px;
+  padding-left:15px;
+  padding-bottom:7px;
+}
+#keyword {
+  width:370px;
+  height:31px;
+  background:URL("images/main/searchbar.png");
+}
+
+#focusarea {
+  width:370px;
+  height:130px;
+  padding-left:15px;
+}
+#focusarea #focusimg {
+  width:370px;
+  height:130px;
+  background:URL("images/main/focusarea.png");
+}
+
+/* APP展示模块 */
+.applistarea {
+  width:370px;
+  height:167px;
+  padding:16px 15px 0px 15px;
+}
+.applistarea .applistareain {
+  width:370px;
+  height:149px;
+}
+.applistarea .applistareain .applistlinkbar {
+  width:370px;
+  height:16px;
+  padding-bottom:14px;
+}
+.applistarea .applistareain .applistlinkbar .blockname{
+  width:60px;
+  height:16px;
+  float:left;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-family: 'Arial Negreta', 'Arial';
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  line-height: normal;
+}
+.applistarea .applistareain .applistlinkbar .linkright{
+  width:68px;
+  height:16px;
+  float:right;
+  font-size: 14px;
+  color: #FFFFFF;
+  font-family: 'Arial Negreta', 'Arial';
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  line-height: normal;
+}
+.applistarea .applistareain .imagelist{
+  width:370px;
+  height:135px;
+}
+.applistarea .applistareain .imagelist .block{
+  float:left;
+}
+.applistarea .applistareain .imagelist .blockl{
+  width:104px;
+  height:135px;
+  padding-right:19px;
+}
+.applistarea .applistareain .imagelist .block2{
+  width:104px;
+  height:135px;
+  padding-left:10px;
+  padding-right:10px;
+}
+.applistarea .applistareain .imagelist .block3{
+  width:104px;
+  height:135px;
+  padding-left:19px;
+}
+
+.applistarea .applistareain .imagelist .block .appinfo {
+  width:104px;
+  height:117px;
+  background:#FFFFFF;
+}
+.applistarea .applistareain .imagelist .block .appinfo .appicon {
+  width:95px;
+  height:84px;
+  padding-top:9px;
+  padding-left:9px; 
+}
+.applistarea .applistareain .imagelist .block .appinfo .appicon img {
+  width:82px;
+  height:82px;
+}
+.applistarea .applistareain .imagelist .block .appinfo .appname {
+  width:104px;
+  height:24px;
+  font-family: 'Arial Normal', 'Arial';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #333333;
+  text-align:center;
+  line-height: normal;
+}
+.applistarea .applistareain .imagelist .block .apptype {
+  width:104px;
+  height:18px;
+  font-size: 12px;
+  color: #00FFFF;
+  font-family: 'Arial Normal', 'Arial';
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+  line-height: normal;
+}
+
+.adarea {
+  width:370px;
+  height:106px;
+  padding:16px 15px 0px 15px;
+  overflow-x:auto;
+  overflow-y:hidden;
+}
+.adarea .adpanel {
+  width:500px; /*需根据情况动态设置*/
+  height:106px;
+}
+.adarea .adpanel div {
+  height:106px;
+  float:left;
+}
+
+.bottom {
+  padding: 46px 15px 0px 15px;
+}
+.bottom a, a:link, a:hover, a:visited {
+  text-decoration:none;
+  color:#FFFFFF;
+}
+.icp {
+  text-decoration:none;
+  color: #FFFFFF;
+}
+.bottom div {
+  float:left;
+}
+
+a, a:link, a:hover, a:visited {
+  text-decoration:none;
+  color:#FFFFFF;
+}

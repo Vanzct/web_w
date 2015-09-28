@@ -1,0 +1,171 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>游戏名称</title>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link href="app_v2.css" type="text/css" rel="stylesheet"/>
+    <link href="detail_v2.css" type="text/css" rel="stylesheet"/>
+	<!-- link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css">
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.js"></script -->
+	
+	<script type="text/javascript">
+		function switchcontent(obj) {
+			var showid = obj.attributes["blockid"].nodeValue ;
+
+			document.getElementById("detail").className = "unselectedpanel";
+			document.getElementById("comment").className = "unselectedpanel";
+			document.getElementById("relevant").className = "unselectedpanel";
+			document.getElementById(showid).className = "selectedpanel";
+
+			document.getElementById("detailct").className = "hiddenblock";
+			document.getElementById("commentct").className = "hiddenblock";
+			document.getElementById("relevantct").className = "hiddenblock";
+			document.getElementById(showid+"ct").className = "showblock";
+
+		}
+		var _paiyuec = _paiyuec || [];
+		_paiyuec.push(['i', '0X-9-m5lqew']);
+		_paiyuec.push(['domain','t.paiyue.com']);
+		_paiyuec.push(['o','']);
+		_paiyuec.push(['m','']);
+		_paiyuec.push(['d','']);
+		function downloadapp() {
+			// count
+			//(function(d) {
+			//var s = d.createElement('script');s.type = 'text/javascript';s.async = true;
+			//s.src = ('https:'===location.protocol?'https://f.paiyue.com':'http://f.py0.cc')+'/j/3/c.js';
+			//var e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e);
+			//})(document);
+			confirm('即将进行软件下载，是否继续？');
+		}
+	</script>
+  </head>
+  <body>
+	<div id="header">
+		电影票比价
+	</div>
+	<div id="base">
+	    <!-- 导航链接 -->
+		<div id="navi">
+			<!--div style="float:left;padding-left:10px;">< 首页</div><div style="float:right;padding-right:25px;">类别</div-->
+		</div>
+		<!-- 主内容区 -->
+		<div id="content">
+			<div id="apphead">
+				<div id="icon"><img src="dianyingpiaobijia/dianyingpiaobijia.png" width="82px" height="82px"/></div>
+				<div id="mid">
+					<div id="appname">电影票比价<br>
+					4.04万次下载 | 2.04MB</div>
+					<div id="score">
+						<img src="images/detail/star.png" width="14px" height="14px"/>
+						<img src="images/detail/star.png" width="14px" height="14px"/>
+						<img src="images/detail/star.png" width="14px" height="14px"/>
+						<img src="images/detail/star.png" width="14px" height="14px"/>
+						<img src="images/detail/blankstar.png" width="14px" height="14px"/>
+					</div>
+				</div>
+				<div id="opr" onclick="downloadapp()">
+					<div><img src="images/detail/dlarrow.png" width="30px" height="30px"/></div>
+					<span>下载</span>
+				</div>
+			</div>
+			
+			<div id="downloadbtn">
+				<div id="textly">下&nbsp;&nbsp;载</div>
+				<div id="clkly" onclick="downloadapp()"></div>
+			</div>
+			<!--div id="appnavi">
+				<div id="panel">
+					<div id="detail" blockid="detail" class="unselectedpanel" onclick="switchcontent(this)">详情</div>
+					<div id="comment" blockid="comment" class="selectedpanel" onclick="switchcontent(this)">评论</div>
+					<div id="relevant" blockid="relevant" class="unselectedpanel" onclick="switchcontent(this)">相关</div>
+				</div>
+			</div-->
+			<div id="appcontent">
+				<!-- 信息面板 -->
+				<div id="detailct" class="hiddenblock">
+					没有内容
+				</div>
+				<div id="commentct" class="showblock">
+					<!-- 图片展示区 -->
+					<div class="pictureslider">
+						<div class="imgblocklist">
+							<div class="imgblock">
+								<img src="dianyingpiaobijia/p1.jpg" />
+							</div>
+							<div class="imgblock">
+								<img src="dianyingpiaobijia/p2.jpg" />
+							</div>
+							<div class="imgblock">
+								<img src="dianyingpiaobijia/p3.jpg" />
+							</div>
+							<div class="imgblock">
+								<img src="dianyingpiaobijia/p4.jpg" />
+							</div>
+							<div class="imgblock">
+								<img src="dianyingpiaobijia/p5.jpg" />
+							</div>
+						</div>
+					</div>
+
+					<!-- 信息内容块 -->
+					<div class="info">
+						<div class="title">应用介绍</div>
+						<div class="substance">
+低价电影票，帮你找到同一影院不同平台最低价格及不同影院谁家价格最便宜！
+						</div>
+					</div>
+					<div class="info">
+						<div class="title">软件特色</div>
+						<div class="substance">
+1、收录平台多，猫眼，格瓦拉，美团，糯米，中影，微信电影票，网易电影票，网票网等<br>
+2、帮助用户比较这些平台哪家票价最低，然后去哪家购买<br>
+3、LBS定位附近影院，然后也可以比较不同影院谁家票价最低<br>
+						</div>
+					</div>
+					<div class="info">
+						<div class="title">版本信息</div>
+						<div class="substance">
+版本1.2.6   更新时间：2015-07-31<br>
+更新说明：<br>
+1、新增三家影院之间在不同票务平台的价格比较<br>
+2、新增E票网票务信息<br>
+3、修复用户反馈BUG</div>
+					</div>
+					<!-- 信息内容结束 -->
+				</div>
+				<div id="relevantct" class="hiddenblock">
+					没有内容
+				</div>
+			</div>
+			<div id="downloadbtn">
+				<div id="textly">下&nbsp;&nbsp;载</div>
+				<div id="clkly" onclick="downloadapp()"></div>
+			</div>
+		</div>
+		<div class="bottom">
+			<div class="cpy">
+				&nbsp&nbsp<a href="info.html" target="_blank">公司简介</a>&nbsp&nbsp&nbsp&nbsp<a href="contact.html" target="_blank">联系我们</a>
+			</div>
+			<div class="icp">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp浙ICP备14025266号-1</div>
+		</div>
+	</div>
+<!-- 访客监测
+<script type="text/javascript">
+var _paiyuer = _paiyuer || [];
+_paiyuer.push(['i', '0X-H-t3lqew']);
+_paiyuer.push(['domain','t.paiyue.com']);
+_paiyuer.push(['p','']);
+_paiyuer.push(['v','']);
+(function(d) {
+var s = d.createElement('script');s.type = 'text/javascript';s.async = true;
+s.src = ('https:'===location.protocol?'https://f.paiyue.com':'http://f.py0.cc')+'/j/3/r.js';
+var e = d.body.getElementsByTagName('script')[0]; e.parentNode.insertBefore(s, e);
+})(document);
+</script>
+<noscript><img src="//t.paiyue.com/rtg.gif?i=0X-H-t3lqew" style="display:none;"/></noscript> -->
+  </body>
+</html>
