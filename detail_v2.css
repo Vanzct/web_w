@@ -40,7 +40,7 @@
 }
 
 #mid {
-  width:179px;
+  width:auto;
   height:96px;
   padding-top:42px;
   float:left;
@@ -139,22 +139,25 @@
   height:33px;
   position:relative;
   //background:URL("images/detail/downloadbtn.png");
-  background-color: #cccccc;
+  //background-color: #cccccc;
 
 }
 #textly {
-  width:100%;
+  left:2%;
+  width:96%;
   height:25px;
   padding-top:8px;
   position:absolute;
   
-  color: #33ccff;
+  background-color: #66ccff;
   font-family: "Arial Normal","Arial";
-  font-size: 13px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
   text-align: center;
+  box-shadow:0px 0px 8px #cccccc;
+  color:yellow;
 }
 #clkly {
   width:100%;
