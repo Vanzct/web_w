@@ -1,0 +1,45 @@
+#confirm_page{
+	position: fixed;
+	width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.1);
+    z-index: 1000;
+}
+#confirm_card{
+	position: relative;
+	width: 80%;
+	height: 200px;
+	margin-left: 10%;
+	margin-top: 200px;
+	background-color:#fff;
+}
+#confirm_card_bt_download{
+	position: absolute;
+	width: 98%;
+	height: 30px;
+	left:1%;
+	bottom:5px;
+	padding-top:10px;
+	margin-bottom: 40px;
+	text-align: center;
+	padding-top: 10px;
+	box-shadow:0px 0px 2px #ccc;
+	font-size: 120%;
+}
+#confirm_card_bt_cancel{
+	position: absolute;
+	font-size: small;
+	width: 99%;
+	height: auto;
+	right: 0px;
+	bottom:20px;
+	text-align: center;
+	text-decoration: underline;
+}
+#confirm_card_text{
+	position: absolute;
+	width: 99%;
+	height: auto;
+	padding: 20px;
+	text-align: center;
+}
