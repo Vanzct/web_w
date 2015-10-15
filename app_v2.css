@@ -1,6 +1,5 @@
 body {
   margin:0px;
-  background-image:none;
   position:absolute;
   width: 100%;
   height: 100%;
@@ -11,11 +10,17 @@ body {
 }
 
 #base {
-  margin-left:auto;
-  margin-right:auto;
   width: 100%;
   z-index:0;
-  
   background-color: #66ccff;
 }
+
+.bottom{ 
+    width: 100%;
+    height: 30px;
+    font-size: 0.8em;
+    text-align: center;
+}
+
+
 

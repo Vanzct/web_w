@@ -229,7 +229,7 @@
 .bottom {
   position: relative;
   padding: 10px 15px 0px 15px;
-  top:-50px;
+  top:-80px;
 }
 .bottom a, a:link, a:hover, a:visited {
   text-decoration:none;
