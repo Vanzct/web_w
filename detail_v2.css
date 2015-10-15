@@ -135,7 +135,6 @@
 }
 
 #downloadbtn {
-
   height:33px;
   position:relative;
   //background:URL("images/detail/downloadbtn.png");
@@ -178,7 +177,7 @@
 /* Title - Comment*/
 .info {
   padding:22px 16px 6px 16px;
-  height: 200px;
+  .height: 200px;
   overflow-y: scroll;
 }
 .info .title {
@@ -228,21 +227,24 @@
 
 /* 公司信息 */
 .bottom {
+  position: relative;
   padding: 10px 15px 0px 15px;
+  top:-50px;
 }
 .bottom a, a:link, a:hover, a:visited {
   text-decoration:none;
-  color:#FFFFFF;
+  color:#666666;
 }
 .icp {
   text-decoration:none;
-  color: #FFFFFF;
+  color: #666666;
 }
 .bottom div {
+  padding: 20px;
   float:left;
 }
 
 a, a:link, a:hover, a:visited {
   text-decoration:none;
-  color:#FFFFFF;
+  color:#666666;
 }
